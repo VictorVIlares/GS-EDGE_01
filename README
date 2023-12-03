@@ -1,0 +1,40 @@
+# Projeto de Monitoramento de Saúde com Arduino
+
+## Descrição do Problema de Saúde
+
+O projeto aborda a necessidade de monitoramento de temperatura corporal como um indicador de potenciais problemas de saúde. A temperatura corporal é uma medida vital que, quando fora dos limites normais, pode indicar a necessidade de intervenção ou cuidado.
+
+## Visão Geral da Solução Proposta
+
+A solução proposta envolve o uso de um sensor de temperatura (TMP36) conectado a um Arduino para monitorar a temperatura corporal. Além disso, há um LED para indicar visualmente quando a temperatura ultrapassa um limite pré-definido e um buzzer para fornecer um alerta sonoro contínuo nessa situação. As informações são exibidas em um LCD para uma fácil leitura.
+
+## Configuração e Execução da Aplicação
+
+### Materiais Necessários
+- Arduino
+- Sensor de Temperatura TMP36
+- LED
+- Buzzer
+- LCD
+- Resistores e fios de conexão
+- Protoboard
+
+### Configuração Física
+1. Conecte o sensor de temperatura (TMP36) ao pino A0 do Arduino.
+2. Conecte o LED ao pino 9 e o buzzer ao pino 8 do Arduino.
+3. Conecte o LCD aos pinos correspondentes do Arduino (7, 6, 5, 4, 3, 2).
+
+### Configuração no Tinkercad
+1. Abra o link da simulação no Tinkercad: (https://www.tinkercad.com/things/9NQjF6MH14x-gs-edge).
+2. Certifique-se de que todos os componentes estão conectados corretamente.
+
+### Execução
+1. Carregue o código fornecido no Arduino IDE.
+2. Conecte o Arduino ao computador e carregue o código no dispositivo.
+3. Observe as leituras de temperatura no LCD, com alertas visuais (LED) e sonoros (buzzer) se a temperatura ultrapassar o limite definido.
+
+## Simulação no Tinkercad
+
+Para visualizar a simulação deste projeto no Tinkercad, (https://www.tinkercad.com/things/9NQjF6MH14x-gs-edge). Nesta simulação, você pode observar a interação dos componentes e o funcionamento do sistema de monitoramento de saúde.
+
+Este projeto fornece uma solução simples e eficaz para monitorar a temperatura corporal, alertando sobre possíveis problemas de saúde.
